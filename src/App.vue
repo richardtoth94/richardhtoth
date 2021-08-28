@@ -2,13 +2,20 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-md-8">
-        <img src="/profile_photo.jpeg" alt="Profile Photo" class="img-fluid profile_image">
+        <img
+          src="/richardhtoth/profile_photo.jpeg"
+          alt="Profile Photo"
+          class="img-fluid profile_image"
+        />
         <div class="text-card mt-3">
           <h1>Richard Toth</h1>
           <h4>Web Developer</h4>
         </div>
         <div class="socials">
-          <a href="https://www.linkedin.com/in/richard-toth-57508012a/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/richard-toth-57508012a/"
+            target="_blank"
+          >
             <font-awesome-icon :icon="['fab', 'linkedin']" />
           </a>
 
@@ -27,17 +34,22 @@
 
 <script>
 export default {
-  name: 'App',
+  name: "App",
   components: {
     //
-  }
-}
+  },
+};
 </script>
 
 <style>
 body {
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 
 #app {
@@ -50,7 +62,7 @@ body {
 }
 
 .socials {
-  display: flex; 
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -65,7 +77,10 @@ body {
   border-radius: 100%;
 }
 
-h1, h4, a, svg {
+h1,
+h4,
+a,
+svg {
   color: white;
 }
 
