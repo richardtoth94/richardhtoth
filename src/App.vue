@@ -9,7 +9,7 @@
         />
         <div class="text-card mt-3">
           <h1>Richard Toth</h1>
-          <h4>Web Developer</h4>
+          <h4>Software Developer</h4>
         </div>
         <div class="socials">
           <a
