@@ -4,5 +4,5 @@
  * @type {import('@vue/cli-service').ProjectOptions}
  */
  module.exports = {
-    publicPath:'/richardhtoth/',
+    publicPath:'https://richardhtoth.co.uk/',
 }

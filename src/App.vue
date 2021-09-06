@@ -3,7 +3,7 @@
     <div class="row justify-content-center">
       <div class="col-md-8">
         <img
-          src="/richardhtoth/profile_photo.jpeg"
+          src="https://richardhtoth.co.uk/profile_photo.jpeg"
           alt="Profile Photo"
           class="img-fluid profile_image"
         />
